@@ -1,0 +1,264 @@
+.rectangle{
+	position: absolute;
+    width: 56px;
+    height: 2px;
+	left: 769px;
+	top: 1746px;
+	background: #000000;
+	border-radius: 5px;
+}
+
+header{
+	position: absolute;
+    width: 1487px;
+	height: 719px;
+	left: -50px;
+	top: 56px;
+}
+
+
+.header-text{
+	position: absolute;
+	width: 445px;
+	height: 338px;
+	left: 190px;
+	top: 283px;
+}
+
+.navigation{
+	position: absolute;
+	width: 545px;
+	height: 23px;
+	left: 863px;
+	top: 70px;
+}
+
+body{
+	position: relative;
+    width: 1600px;
+	height: 5870px;
+}
+
+.logo{
+	position: absolute;
+	width: 160px;
+	height: 41px;
+	left: 191px;
+	top: 56px;
+}
+
+.logo-letter{
+	position: absolute;
+	left: 12.75%;
+	right: 86.19%;
+	top: 1.04%;
+	bottom: 98.42%;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 33px;
+	color: #FFFFFF;
+	mix-blend-mode: normal
+}
+
+.logo-name{
+	position: absolute;
+	left: 15.25%;
+	right: 78.06%;
+	top: 1.06%;
+	bottom: 98.43%;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 30px;
+	color: #233348;
+	mix-blend-mode: normal;
+}
+
+.ellipse{
+	position: absolute;
+	width: 41px;
+	height: 41px;
+	left: 191px;
+	top: 56px;
+	background: #458FF6;
+}
+
+
+.home-text{
+position: absolute;
+left: 53.94%;
+right: 42.88%;
+top: 1.19%;
+bottom: 98.42%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+/* 1f1534-hyfen */
+
+color: #1F1534;
+}
+
+.find-doc-text{
+position: absolute;
+left: 59.62%;
+right: 33.5%;
+top: 1.19%;
+bottom: 98.42%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* 1f1534-hyfen */
+
+color: #1F1534;
+opacity: 0.5;
+}
+
+.about-text{
+position: absolute;
+left: 83.25%;
+right: 12%;
+top: 1.19%;
+bottom: 98.42%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* 1f1534-hyfen */
+
+color: #1F1534;
+opacity: 0.5;
+}
+
+.apps-text{
+position: absolute;
+left: 69%;
+right: 28.25%;
+top: 1.19%;
+bottom: 98.42%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* 1f1534-hyfen */
+
+color: #1F1534;
+opacity: 0.5;
+}
+
+.testimonials-text{
+position: absolute;
+left: 74.25%;
+right: 19.25%;
+top: 1.19%;
+bottom: 98.42%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* 1f1534-hyfen */
+
+color: #1F1534;
+opacity: 0.5;
+}
+
+.header-hesding{
+	position: absolute;
+	left: 11.88%;
+	right: 61.44%;
+	top: 4.82%;
+	bottom: 93.27%;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	color: #000000;
+	mix-blend-mode: normal;
+}
+
+.header-paragraph{
+	position: absolute;
+	left: 11.88%;
+	right: 60.31%;
+	top: 7.16%;
+	bottom: 91.21%;
+
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 32px;
+	/* or 152% */
+
+
+	color: #7D7987;
+
+	mix-blend-mode: normal;
+}
+
+.consult-button{
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	left: 190px;
+	top: 561px;
+
+}
+
+.consult-button-text{
+	position: absolute;
+	left: 14.38%;
+	right: 78.12%;
+	top: 9.56%;
+	bottom: 89.42%;
+
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 60px;
+	/* identical to box height, or 333% */
+
+
+	color: #FFFFFF;
+	mix-blend-mode: normal;
+}
+
+.button-rectangle{
+	position: absolute;
+	left: 11.88%;
+	right: 75.62%;
+	top: 9.61%;
+	bottom: 89.44%;
+	background: #458FF6;
+	border-radius: 55px;
+}
