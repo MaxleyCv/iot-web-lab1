@@ -1,58 +1,110 @@
-.rectangle{
-	position: absolute;
-    width: 56px;
-    height: 2px;
-	left: 769px;
-	top: 1746px;
-	background: #000000;
-	border-radius: 5px;
-}
+
 
 header{
 	position: absolute;
     width: 1487px;
 	height: 719px;
-	left: -50px;
+	left: 0px;
 	top: 56px;
 }
 
 
 .header-text{
 	position: absolute;
+	left: 190px;
+	top: 303px;
 	width: 445px;
 	height: 338px;
-	left: 190px;
-	top: 283px;
+
 }
 
-.navigation{
+.header-heading{
+	position: relative;
+
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	color: #000000;
+	mix-blend-mode: normal;
+}
+
+.top-dots{
 	position: absolute;
-	width: 545px;
-	height: 23px;
-	left: 863px;
-	top: 70px;
+	top: 180px;
+	left: 50px;
+	opacity: 0.5;
+}
+
+.header-paragraph{
+	position: relative;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 32px;
+	color: #7D7987;
+	mix-blend-mode: normal;
+}
+
+.consult-button{
+	position:relative;
+	width: 200px;
+	height: 60px;
+	background: #458FF6;
+	border-radius: 55px
+}
+
+
+
+.consult-button-text{
+	position: relative;
+	top: -3px;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	line-height: 60px;
+	color: white;
+	mix-blend-mode: normal;
+}
+
+
+.navigation{
+	display: inline-flex;
 }
 
 body{
 	position: relative;
     width: 1600px;
 	height: 5870px;
+	left: -50px;
 }
 
-.logo{
+/*.logo{
 	position: absolute;
-	width: 160px;
+height: 41px;
+left: 191px;
+top: 2px;
+display: inline-block;
+}*/
+
+.ellipse{
+	position: absolute;
+	width: 41px;
 	height: 41px;
-	left: 191px;
-	top: 56px;
+	left: 204px;
+	top: 0px;
+	border-radius: 50%;
+	background: #458FF6;
 }
 
 .logo-letter{
-	position: absolute;
-	left: 12.75%;
-	right: 86.19%;
-	top: 1.04%;
-	bottom: 98.42%;
+	position: relative;
+	left: 30%;
+	top: 9%;
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: bold;
@@ -63,10 +115,10 @@ body{
 }
 
 .logo-name{
-	position: absolute;
-	left: 15.25%;
+	position: relative;
+	left: 53px;
 	right: 78.06%;
-	top: 1.06%;
+	top: -29px;
 	bottom: 98.43%;
 	font-family: Mulish;
 	font-style: normal;
@@ -77,188 +129,419 @@ body{
 	mix-blend-mode: normal;
 }
 
-.ellipse{
-	position: absolute;
-	width: 41px;
-	height: 41px;
-	left: 191px;
-	top: 56px;
-	background: #458FF6;
-}
 
 
 .home-text{
-position: absolute;
-left: 53.94%;
-right: 42.88%;
-top: 1.19%;
-bottom: 98.42%;
-
-font-family: Mulish;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 23px;
-/* identical to box height */
-
-/* 1f1534-hyfen */
-
-color: #1F1534;
-}
-
-.find-doc-text{
-position: absolute;
-left: 59.62%;
-right: 33.5%;
-top: 1.19%;
-bottom: 98.42%;
-
-font-family: Mulish;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 23px;
-/* identical to box height */
-
-
-/* 1f1534-hyfen */
-
-color: #1F1534;
-opacity: 0.5;
-}
-
-.about-text{
-position: absolute;
-left: 83.25%;
-right: 12%;
-top: 1.19%;
-bottom: 98.42%;
-
-font-family: Mulish;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 23px;
-/* identical to box height */
-
-
-/* 1f1534-hyfen */
-
-color: #1F1534;
-opacity: 0.5;
-}
-
-.apps-text{
-position: absolute;
-left: 69%;
-right: 28.25%;
-top: 1.19%;
-bottom: 98.42%;
-
-font-family: Mulish;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 23px;
-/* identical to box height */
-
-
-/* 1f1534-hyfen */
-
-color: #1F1534;
-opacity: 0.5;
-}
-
-.testimonials-text{
-position: absolute;
-left: 74.25%;
-right: 19.25%;
-top: 1.19%;
-bottom: 98.42%;
-
-font-family: Mulish;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 23px;
-/* identical to box height */
-
-
-/* 1f1534-hyfen */
-
-color: #1F1534;
-opacity: 0.5;
-}
-
-.header-hesding{
 	position: absolute;
-	left: 11.88%;
-	right: 61.44%;
-	top: 4.82%;
-	bottom: 93.27%;
+	left: 53.94%;
+	right: 42.88%;
+	top: 1.19%;
+	bottom: 98.42%;
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 48px;
+	font-size: 18px;
+	line-height: 23px;
+	color: #1F1534;
+	text-decoration: none;
+}
+
+.find-doc-text{
+	position: absolute;
+	left: 59.62%;
+	right: 33.5%;
+	top: 1.19%;
+	bottom: 98.42%;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	color: #1F1534;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+.about-text{
+	position: absolute;
+	left: 83.25%;
+	right: 12%;
+	top: 1.19%;
+	bottom: 98.42%;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	color: #1F1534;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+.apps-text{
+	position: absolute;
+	text-decoration: none;
+	left: 69%;
+	right: 28.25%;
+	top: 1.19%;
+	bottom: 98.42%;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	color: #1F1534;
+	opacity: 0.5;
+}
+
+.testimonials-text{
+	position: absolute;
+	text-decoration: none;
+	left: 74.25%;
+	right: 19.25%;
+	top: 1.19%;
+	bottom: 98.42%;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	color: #1F1534;
+	opacity: 0.5;
+}
+
+
+
+.first-image{
+	position: absolute;
+	left: 747px;
+	top: 197px;
+	right: 160px;
+	width: 693px;
+	height: 598px;
+	background-image: url("trafalgar-header-il.svg");
+}
+
+.medicine-ill{
+	position: absolute;
+    left: 8.44%;
+	right: 50.94%;
+	top: 16.78%;
+	bottom: 75.26%;
+	background: url(trafalgar-illustration sec02.png);
+}
+
+.prov-h2{
+	position: relative;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
 	line-height: 56px;
 	color: #000000;
 	mix-blend-mode: normal;
 }
 
-.header-paragraph{
-	position: absolute;
-	left: 11.88%;
-	right: 60.31%;
-	top: 7.16%;
-	bottom: 91.21%;
-
+.prov-txt{
+	position: relative;
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: 300;
-	font-size: 21px;
-	line-height: 32px;
-	/* or 152% */
-
-
+	font-size: 18px;
+	line-height: 30px;
 	color: #7D7987;
-
 	mix-blend-mode: normal;
 }
 
-.consult-button{
+.leading-providers{
 	position: absolute;
-	width: 200px;
-	height: 60px;
-	left: 190px;
-	top: 561px;
+	width: 1273px;
+	height: 467px;
+	left: 135px;
+	top: 985px;
+}
+
+.providers-text{
+	position: absolute;
+	width: 450px;
+	height: 379.87px;
+	left: 922px;
+	top: 100px;
 
 }
 
-.consult-button-text{
-	position: absolute;
-	left: 14.38%;
-	right: 78.12%;
-	top: 9.56%;
-	bottom: 89.42%;
 
+.learn-btn{
+	border: 1.4px solid #458FF6;
+	width: 200px;
+	height: 55px;
+	box-sizing: border-box;
+	border-radius: 55px;
+	background-color: white;
+}
+
+.learn-btn-fill{
+	position: relative;
+	top: -5px;
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 60px;
-	/* identical to box height, or 333% */
+	color: #458FF6;
+	text-align: center;
+	mix-blend-mode: normal;
+}
 
+.prov-rec{
+	position: relative;
+	top: -4px;
+	width: 56px;
+	height: 1.96px;
+	background: #000000;
+	border-radius: 10px;
+}
+.our-services{
+	position: absolute;
+width: 1675.58px;
+height: 1133px;
+left: 0px;
+top: 1662px;
+}
 
+.our-info{
+	position: absolute;
+	width: 952px;
+	height: 177px;
+	left: 320px;
+	top: 0px;
+}
+
+.our-serv-rec{
+	position: relative;
+	left: 448px;
+
+	width: 56px;
+	height: 2px;
+	background: #000000;
+	border-radius: 5px;
+}
+
+.serv-h2{
+	position: relative;
+	text-align: center;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 56px;
+	/* identical to box height, or 156% */
+	color: #000000;
+
+	mix-blend-mode: normal;
+}
+
+.serv-txt{
+	position: relative;
+	height: 60px;
+	width: 952px;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: #7D7987;
+	mix-blend-mode: normal;
+}
+
+.ftr-rc{
+	position: absolute;
+	width: 1600px;
+	height: 165px;
+	left: 0px;
+	top: 77px;
+	background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.help-ftr{
+	position: absolute;
+	left: 79%;
+	right: 18.19%;
+	top: 130px;
+	bottom: 46.54%;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 60px;
 	color: #FFFFFF;
 	mix-blend-mode: normal;
 }
 
-.button-rectangle{
+.reg-ftr{
 	position: absolute;
-	left: 11.88%;
-	right: 75.62%;
-	top: 9.61%;
-	bottom: 89.44%;
-	background: #458FF6;
+	left: 64.44%;
+	right: 31.38%;
+	top: 130px;
+	bottom: 46.54%;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 60px;
+	color: #FFFFFF;
+	mix-blend-mode: normal;
+}
+
+.company-ftr{
+	position: absolute;
+left: 47.62%;
+right: 46.62%;
+top: 130px;
+bottom: 46.54%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 60px;
+/* identical to box height, or 300% */
+
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+}
+
+.footer{
+	position: absolute;
+	width: 1619px;
+	height: 261px;
+	left: 0px;
+	top: 2935px;
+}
+
+.all-services{
+	position: relative;
+	top:257px;
+	left: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.lens-img{
+	position: relative;
+	width: 92px;
+	height: 90px;
+	left: 39px;
+	top: 0px;
+}
+
+.search-doctor{
+	z-index: 0;
+	width: 350px;
+	height: 354px;
+	box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+	border-radius: 20px;
+	background-color: white;
+}
+
+.h3-search{
+	position: relative;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	left: 39px;
+	font-size: 24px;
+	line-height: 56px;
+	color: #000000;
+	mix-blend-mode: normal;
+}
+
+.txt-search{
+	width: 266px;
+	height: 84px;
+	position: relative;
+	font-family: Mulish;
+	font-style: normal;
+	left:39px;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
+	color: #7D7987;
+	mix-blend-mode: normal;
+}
+
+.all-services2{
+	position: relative;
+	top:295px;
+	left: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.service-button{
+	position: relative;
+	top:500px;
+	left: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.srv-btn{
+	position: absolute;
+	top:1076px;
+	left: 700px;
+	border: 1.4px solid #458FF6;
+	width: 200px;
+	height: 55px;
+	box-sizing: border-box;
 	border-radius: 55px;
+	background-color: white;
+}
+
+.srv-btn-txt{
+	position: relative;
+	top: -5px;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 60px;
+	color: #458FF6;
+	text-align: center;
+	mix-blend-mode: normal;
+}
+
+.logo-footer{
+	position: relative;
+	top: 158px;
+	left: 246px;
+}
+
+.rotating-figure{
+	position: absolute;
+	width: 937.96px;
+	height: 671.38px;
+	left: -73.42px;
+	top: 70px;
+	opacity: 0.7;
+	transform: rotate(0deg);
+	z-index: -1;
+}
+
+.footer-dots{
+	position: absolute;
+	top: 2900px;
+	left: 1380px;
+	opacity: 0.5;
+	transform: rotate(90deg);
+}
+
+.second-footer-dots{
+	position: absolute;
+	top: 1000px;
+	left: 566px;
+	opacity: 0.5;
 }
